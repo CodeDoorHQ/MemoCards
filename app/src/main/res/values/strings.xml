@@ -7,4 +7,6 @@
     <string name="easy">Easy</string>
     <string name="medium">Medium</string>
     <string name="difficult">Difficult</string>
+    <string name="Back">back</string>
+    <string name="Home">home</string>
 </resources>
