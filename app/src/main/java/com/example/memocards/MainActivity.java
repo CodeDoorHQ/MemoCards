@@ -1,4 +1,4 @@
-package com.example.memorama;
+package com.example.memocards;
 
 import androidx.appcompat.app.AppCompatActivity;
 

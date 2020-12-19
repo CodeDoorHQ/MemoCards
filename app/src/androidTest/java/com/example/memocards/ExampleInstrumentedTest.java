@@ -1,4 +1,4 @@
-package com.example.memorama;
+package com.example.memocards;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.memorama", appContext.getPackageName());
+        assertEquals("com.example.memocards", appContext.getPackageName());
     }
 }
