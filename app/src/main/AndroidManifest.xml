@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MemoCards">
-        <activity android:name=".Levels"></activity>
+        <activity android:name=".Leaderboards"></activity>
+        <activity android:name=".Achievements" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Game" />
+        <activity android:name=".Levels" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
