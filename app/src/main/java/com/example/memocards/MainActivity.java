@@ -1,13 +1,17 @@
 package com.example.memocards;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity{
+
+    private static final String LOG_TAG =
+            MainActivity.class.getSimpleName();
 
     private Button play;
 
@@ -29,6 +33,12 @@ public class MainActivity extends AppCompatActivity{
 
     public void playPage() {
         Intent intent = new Intent(this, Levels.class);
+        startActivity(intent);
+    }
+
+    public void launchAchievements(View view) {
+        Log.d(LOG_TAG, "Achievement Button Clicked!");
+        Intent intent = new Intent(this, Achievements.class);
         startActivity(intent);
     }
 }

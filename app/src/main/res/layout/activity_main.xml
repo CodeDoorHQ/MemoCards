@@ -33,12 +33,13 @@
             android:text="@string/settings" />
 
         <Button
-            android:id="@+id/achievments"
+            android:id="@+id/achievements"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:text="@string/achievements"
-            app:iconPadding="8dp" />
+            app:iconPadding="8dp"
+            android:onClick="launchAchievements"/>
 
         <Button
             android:id="@+id/leaderboards"
