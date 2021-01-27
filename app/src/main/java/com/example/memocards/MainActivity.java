@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity{
 
     private Button play;
+    private Button achievments;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,15 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 playPage();
+            }
+        });
+
+        achievments = findViewById(R.id.achievements);
+        achievments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Achievements.class);
+                startActivity(intent);
             }
         });
 
